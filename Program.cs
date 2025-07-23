@@ -46,8 +46,11 @@ using CommonPatterns;
 // Console.WriteLine($"Number of subarrays with sum {k}: {count}");
 
 // Maximum Size Subarray Sum Equals k
-Console.WriteLine("Maximum Size Subarray Sum Equals k Example:");
-int[] nums = [1, -1, 5, -2, 3];
-int k = 3;
-int maxLen = PrefixSum.MaximumSizeSubarraySumEqualsk(nums, k);
-Console.WriteLine($"Maximum size of subarray with sum {k}: {maxLen}");
+// Console.WriteLine("Maximum Size Subarray Sum Equals k Example:");
+// int[] nums = [1, -1, 5, -2, 3];
+// int k = 3;
+// int maxLen = PrefixSum.MaximumSizeSubarraySumEqualsk(nums, k);
+// Console.WriteLine($"Maximum size of subarray with sum {k}: {maxLen}");
+
+// Two Pointers
+TwoPointers.MainMethod();
